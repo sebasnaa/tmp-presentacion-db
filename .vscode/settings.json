@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/sabreu/Desktop/Sant/gitactions/new/ejercicio4/.github/workflows/deploy.yml"
+    }
+}
