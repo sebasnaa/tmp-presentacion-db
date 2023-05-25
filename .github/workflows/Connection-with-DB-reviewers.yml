@@ -1,4 +1,4 @@
-name: Deployment
+name: Connection-with-DB
 on: 
   push:
     branches:
@@ -11,6 +11,7 @@ env:
 jobs:
   test:
     environment: testing
+    required_reviewers
     env:
       MONGODB_CLUSTER_ADDRESS: cluster0.zs93lnv.mongodb.net
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
